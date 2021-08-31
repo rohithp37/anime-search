@@ -1,0 +1,42 @@
+.search-data{
+    margin-top: 120px;
+    text-align: center;
+}
+.anime-data-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row-gap: 20px;
+    grid-gap: 20px;
+    max-width: 992px;
+    width:90%;
+    width: 90%;
+    margin: auto;
+}
+
+.anime-card{
+    background-color:#fff;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    h4{
+        margin: 0;
+        padding:10px;
+        color:$black;
+    }
+}
+
+.load-more-button{
+    padding-bottom: 20px;
+    button{
+        color:$main-blue-color;
+        background-color: $white;
+    }
+}

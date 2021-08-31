@@ -1,0 +1,12 @@
+<div class="search-section">
+    <app-search (userInput)="userInputData($event)"></app-search>
+</div>
+
+<div class="search-data">
+    <ng-container *ngIf="animeData?.length">
+        <search-data [data]="animeData"></search-data>
+        <div class="load-more-button">
+            <button mat-stroked-button (click)="loadMoreAnimeData()">Load More</button>
+        </div>
+    </ng-container>
+</div>

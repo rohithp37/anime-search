@@ -1,0 +1,11 @@
+<div class="search-block" *ngIf="form">
+    <form [formGroup]="form">
+        <mat-form-field appearance="outline">
+            <mat-label>Search</mat-label>
+            <input matInput autocomplete="off" formControlName="searchField">
+            <span matSuffix class="suffix">
+                <button mat-button mat-icon-button (click)="sendSearchData()">GO</button>
+            </span>
+        </mat-form-field>
+    </form>
+</div>

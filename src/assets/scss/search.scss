@@ -1,0 +1,34 @@
+
+.search-section{
+    padding: 20px;
+    background-color:$main-blue-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.search-block{
+    max-width: 768px;
+    text-align: center;
+    margin: auto;
+
+    .mat-form-field{
+        width: 100%;
+    }
+    .mat-form-field-appearance-outline {
+        .mat-form-field-suffix {
+            top:-0.25em;
+        }
+        .mat-form-field-outline {
+            color:$white;
+        }
+    }
+    .mat-form-field-wrapper{
+        padding-bottom: 0;
+    }
+    label{
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,7 @@
+<div class="anime-data-container">
+    <ng-container *ngIf="data?.length">
+        <div class="anime-card" *ngFor="let item of data">
+            <anime-card [data]="item"></anime-card>
+        </div>
+    </ng-container>
+</div>
